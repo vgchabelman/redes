@@ -106,7 +106,7 @@ public class ServerGUI extends JFrame implements ActionListener, WindowListener 
 		// if my Server exist
 		if(server != null) {
 			try {
-				server.stop();			// ask the server to close the conection
+				server.stop();			// ask the server to close the connection
 			}
 			catch(Exception eClose) {
 			}
